@@ -20,7 +20,7 @@ jobs:
           git config --global user.name "Sync Bot"
           git config --global user.email "bot@haunt.gg"
 
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/hauntgg/bio.git
+          git clone https://x-access-token:${{ secrets.AI_SYNC_TOKEN }}@github.com/hauntgg/bio.git
 
           cp features.json bio/src/lib/features/features.json
           
