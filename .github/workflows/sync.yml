@@ -20,14 +20,12 @@ jobs:
           git config --global user.name "Sync Bot"
           git config --global user.email "bot@haunt.gg"
 
-          # Zielrepo klonen
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/hauntgg/bio.git
 
-          # Datei kopieren
-          cp features.json bio/src/lib/features.json
+          cp features.json bio/src/lib/features/features.json
           
           cd bio
-          git add src/lib/features.json
+          git add src/lib/features/features.json
 
           if git diff --cached --quiet; then
             echo "No changes to sync."
