@@ -1067,23 +1067,48 @@
     "description": "Meet the people behind Haunt. View the full team on our team page.",
     "features": [
       {
-        "name": "Curet",
+        "name": "curet",
         "description": "Owner of Haunt",
         "location": "Team Page"
       },
       {
-        "name": "Visics",
+        "name": "visics",
         "description": "Owner of Haunt",
         "location": "Team Page"
       },
       {
-        "name": "Leni",
+        "name": "leni",
         "description": "Owner of Haunt",
         "location": "Team Page"
       },
       {
-        "name": "Adrian",
+        "name": "adrian",
         "description": "Manager at Haunt",
+        "location": "Team Page"
+      },
+      {
+        "name": "paul",
+        "description": "Staff at Haunt",
+        "location": "Team Page"
+      },
+      {
+        "name": "j",
+        "description": "Staff at Haunt",
+        "location": "Team Page"
+      },
+      {
+        "name": "ex3rix",
+        "description": "Staff at Haunt",
+        "location": "Team Page"
+      },
+      {
+        "name": "tom",
+        "description": "Staff at Haunt",
+        "location": "Team Page"
+      },
+      {
+        "name": "fr",
+        "description": "Staff at Haunt",
         "location": "Team Page"
       }
     ],
