@@ -42,12 +42,22 @@
           "location": "Profile Feedback section"
         },
         {
+          "name": "Profile Comments",
+          "description": "View comments left by visitors to your profile",
+          "location": "Profile Comments section"
+        },
+        {
           "name": "Hourly Views (24h)",
           "description": "Detailed hourly breakdown of profile views for the last 24 hours",
           "location": "Profile Views component (24h mode)"
+        },
+        {
+          "name": "Buttons",
+          "description": "At the bottom left of your dashboard you will find buttons to open your profile, generate a QR-Code of you profile, open documentation and switch accounts.",
+          "location": "Profile Views component (24h mode)"
         }
       ],
-      "keywords": ["overview", "analytics", "statistics", "views", "clicks", "visitors", "countries", "feedback", "dashboard", "metrics", "performance"]
+      "keywords": ["overview", "analytics", "statistics", "views", "clicks", "visitors", "countries", "feedback", "dashboard", "metrics", "performance", "comments"]
     },
     "customize": {
       "title": "Customize",
@@ -152,18 +162,13 @@
         },
         {
           "name": "General Profile Settings",
-          "description": "General customization options for overall profile appearance",
+          "description": "General customization options for overall profile appearance, such as location and profile effects.",
           "location": "General Customization section"
         },
         {
           "name": "Border Customization",
           "description": "Customize profile card borders with colors and styles",
           "location": "Border Customization section"
-        },
-        {
-          "name": "Glow Effects",
-          "description": "Add glow effects to profile elements",
-          "location": "Glow Customization section"
         },
         {
           "name": "YouTube URL Integration",
@@ -181,12 +186,22 @@
           "location": "About Me section"
         },
         {
-          "name": "Other Visual Effects",
-          "description": "Additional visual customization options and effects",
+          "name": "Time Customization",
+          "description": "Display join date and customize the time format used on your profile.",
+          "location": "Time Customization section"
+        },
+        {
+          "name": "Other Customization",
+          "description": "Additional customization options and effects, such as views, feedback, comments, and more.",
           "location": "Other Customization section"
+        },
+        {
+          "name": "Enter Screen",
+          "description": "You need to set an enter text if you have an audio on your profile, you can also force enable the enter screen.",
+          "location": "Customize page"
         }
       ],
-      "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "glow", "youtube", "presence", "aboutme", "custom-emojis"]
+      "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "youtube", "presence", "aboutme", "custom-emojis", "time", "join-date", "time-customization", "enter-text", "enter-screen"]
     },
     "premium": {
       "title": "Premium Features",
@@ -195,9 +210,9 @@
       "description": "Exclusive premium features for enhanced profile customization and functionality",
       "features": [
         {
-          "name": "Custom Alias Creation",
-          "description": "Create custom URL aliases for your profile (e.g., haunt.gg/youralias)",
-          "location": "Alias Settings section"
+          "name": "Alias Token",
+          "description": "Get an alias token when buying premium.",
+          "location": "Account Settings section"
         },
         {
           "name": "Animated Borders",
@@ -285,7 +300,7 @@
         },
         {
           "name": "Default Theme Settings",
-          "description": "Customize your profile layout. Default theme has these extra features: Banner Uploads & Social Cards (Brawl Stars, Clash of Clans, Discord, Github, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
+          "description": "Customize your profile layout. Default theme has these extra features: Banner Uploads & Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
           "location": "Default Theme Settings"
         },
         {
@@ -300,7 +315,7 @@
         },
         {
           "name": "Modern Theme Settings",
-          "description": "Customize your profile layout. Modern theme has these extra features: Social Cards (Brawl Stars, Clash of Clans, Discord, Github, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
+          "description": "Customize your profile layout. Modern theme has these extra features:  Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
           "location": "Modern Theme Settings"
         },
         {
@@ -310,7 +325,7 @@
         },
         {
           "name": "Portfolio Theme Settings",
-          "description": "Customize your profile layout. Portfolio theme has these extra features: Projects, Skills, About Me, & Social Cards (Brawl Stars, Clash of Clans, Discord, Github, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
+          "description": "Customize your profile layout. Portfolio theme has these extra features: Projects, Skills, About Me, & Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
           "location": "Portfolio Theme Settings"
         },
         {
@@ -337,9 +352,14 @@
           "name": "Custom Layout Elements",
           "description": "Add, remove, or rearrange layout elements within your chosen theme",
           "location": "Theme-specific settings"
+        },
+        {
+          "name": "Social Integration Customization",
+          "description": "Customize your discord card appearance.",
+          "location": "Social Integration Customization section"
         }
       ],
-      "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements"]
+      "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements", "discord-presence"]
     },
     "badges": {
       "title": "Badges & Achievements",
@@ -963,6 +983,11 @@
           "location": "Username Settings section"
         },
         {
+          "name": "Alias Settings",
+          "description": "Create alias usernames that redirect to your main profile.",
+          "location": "Discord Connection section"
+        },
+        {
           "name": "Email Address Management",
           "description": "Update your email address and notification preferences",
           "location": "Email Settings section"
@@ -996,6 +1021,11 @@
           "name": "Two-Factor Authentication",
           "description": "Enable, configure, or disable 2FA for enhanced security",
           "location": "Two-Factor Authentication section"
+        },
+        {
+          "name": "Passkeys",
+          "description": "Add passkeys for easier login into your haunt account.",
+          "location": "Passkeys section"
         },
         {
           "name": "2FA Recovery Codes",
@@ -1125,7 +1155,17 @@
       "discord": {
         "official_server": "discord.gg/hauntbio",
         "response_time": "Usually within 24 hours"
-      }
+      },
+      "docs": {
+      "link": "https://help.haunt.gg",
+      "faq": "https://help.haunt.gg/overview/faq",
+      "changelog": "https://help.haunt.gg/overview/changelog",
+      "products": "https://help.haunt.gg/overview/products"
+    },
+    "additional-information": {
+      "1-letter-usernames": "1 letter usernames can be bought on our discord server for 50€",
+      "2-letter-usernames": "2 letter username are included with verified or premium"
+    }
     },
     "payments": {
       "methods": {
