@@ -30,6 +30,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to sync."
           else
-            git commit -m "Sync from ai [sync-bot]"
+            git commit -m "Synced AI knowledge base from GitHub Public Repository [sync-bot]"
             git push
           fi
