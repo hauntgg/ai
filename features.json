@@ -52,7 +52,7 @@
           "location": "Profile Views component (24h mode)"
         },
         {
-          "name": "B",
+          "name": "Buttons",
           "description": "At the bottom left of your dashboard you will find buttons to open your profile, generate a QR-Code of you profile, open documentation and switch accounts.",
           "location": "Profile Views component (24h mode)"
         }
