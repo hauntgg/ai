@@ -1144,7 +1144,7 @@
     ],
     "keywords": ["team", "staff", "management", "curet", "visics", "leni", "adrian"]
   },
-  "platform_info": {
+    "platform_info": {
     "general": {
       "uid": {
         "description": "A UID (Unique Identifier) is a unique numerical code assigned to each user profile",
@@ -1162,9 +1162,13 @@
       "changelog": "https://help.haunt.gg/overview/changelog",
       "products": "https://help.haunt.gg/overview/products"
     },
-    "additional-information": {
+    "additional_information": {
       "1-letter-usernames": "1 letter usernames can be bought on our discord server for 50€",
       "2-letter-usernames": "2 letter username are included with verified or premium"
+    },
+    "ai_guidance": {
+      "unanswerable": "If the AI can't answer a question, please check our documentation at https://help.haunt.gg or join our Discord server at discord.gg/hauntbio for assistance.",
+      "missing_information": "If something is missing from the AI knowledge, please report it in our Discord so the team can update the knowledge base."
     }
     },
     "payments": {
@@ -1181,6 +1185,12 @@
           "supported_types": ["PayPal"],
           "processing_time": "Instant"
         }
+      },
+      "gifting": {
+        "description": "Products can be gifted to other users via the billing page.",
+        "billing_url": "https://haunt.gg/dashboard/billing",
+        "how_to_gift": "After purchasing, use the 'Gift' button on your billing page to send a product as a gift.",
+        "gifter_badge": "Users who gift products receive a 'Gifter' badge on their profile."
       }
     },
     "support": {
@@ -1196,6 +1206,10 @@
         "account_recovery": "Contact via Discord with your UID",
         "payment_issues": "Include transaction ID in support ticket",
         "technical_problems": "Check Discord announcements first"
+      }
+      ,
+      "giveaways": {
+        "giveaways": "Regular giveaways happen on our Discord server."
       }
     },
     "legal": {
