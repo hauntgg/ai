@@ -1061,11 +1061,6 @@
           "name": "Privacy Settings",
           "description": "Control privacy settings and data sharing preferences",
           "location": "Various settings sections"
-        },
-        {
-          "name": "Account Deletion",
-          "description": "Delete your account and all associated data",
-          "location": "Account management section"
         }
       ],
       "keywords": ["settings", "account", "security", "password", "email", "discord", "2fa", "sessions", "privacy", "username", "verification"]
@@ -1216,6 +1211,7 @@
       "age_requirement": "13+ years",
       "terms_url": "haunt.gg/terms",
       "privacy_url": "haunt.gg/privacy",
+      "account_deletion": "Account deletion can be rquested via email. No other platforms than email allowed.",
       "data_handling": {
         "storage_location": "US servers",
         "data_retention": "Account deletion after 30 days of request",
