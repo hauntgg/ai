@@ -1033,8 +1033,13 @@
       "description": "Manage your account settings, security, and personal information",
       "features": [
         {
-          "name": "Display Name Management",
+          "name": "Display Name Settings",
           "description": "Change your display name shown on your profile",
+          "location": "Display Name Settings section"
+        },
+        {
+          "name": "Display Name Cooldown",
+          "description": "You can change your display name without any cooldown.",
           "location": "Display Name Settings section"
         },
         {
@@ -1043,9 +1048,19 @@
           "location": "Username Settings section"
         },
         {
+          "name": "Username Settings Cooldown",
+          "description": "You can change your username without any cooldown if you have premium or verified, otherwise you need to wait 3 days before changing your username again.",
+          "location": "Username Settings section"
+        },
+        {
           "name": "Alias Settings",
           "description": "Create alias usernames that redirect to your main profile.",
           "location": "Discord Connection section"
+        },
+        {
+          "name": "Alias Settings Cooldown",
+          "description": "You can change your alias without any cooldown.",
+          "location": "Alias Settings section"
         },
         {
           "name": "Email Address Management",
@@ -1200,6 +1215,10 @@
         "format": "Incrementing number starting from 0",
         "example": "12345678",
         "usage": "Used for quick profile access via haunt.gg/uid/[number]"
+      },
+      "newsletter": {
+        "description": "You can subscribe to our newsletter to get the latest updates and news about Haunt.",
+        "location": "Footer"
       },
       "discord": {
         "official_server": "discord.gg/hauntbio",
