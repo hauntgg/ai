@@ -50,21 +50,61 @@
           "name": "Hourly Views (24h)",
           "description": "Detailed hourly breakdown of profile views for the last 24 hours",
           "location": "Profile Views component (24h mode)"
-        },
-        {
-          "name": "Buttons",
-          "description": "At the bottom left of your dashboard you will find buttons to open your profile, generate a QR-Code of you profile, open documentation and switch accounts.",
-          "location": "Profile Views component (24h mode)"
         }
       ],
       "keywords": ["overview", "analytics", "statistics", "views", "clicks", "visitors", "countries", "feedback", "dashboard", "metrics", "performance", "comments"]
     },
     "customize": {
       "title": "Customize",
-      "category": "Profile & Customization",
+      "category": "Customization",
       "url": "/dashboard/customize",
       "description": "Comprehensive profile customization with colors, audio, backgrounds, and visual effects",
       "features": [
+        {
+          "name": "Description",
+          "description": "Customize your profile description with a custom description.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Profile Opacity",
+          "description": "Customize your profile opacity with a slider.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Profile Blur",
+          "description": "Customize your profile blur with a slider.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Background Effect",
+          "description": "Customize your profile background effect with a selection of effects.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Background Effect Settings",
+          "description": "Customize your profile background effect settings with a selection of settings.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Username Effect",
+          "description": "Customize your profile username effect with a selection of effects.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Username Effect Settings",
+          "description": "Customize your profile username effect settings with a selection of settings.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Location",
+          "description": "Customize your profile location with a country flag or country name.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Enter Text",
+          "description": "Customize your profile enter text with a custom text.",
+          "location": "General Customization section"
+        },
         {
           "name": "Accent Color Picker",
           "description": "Choose custom accent color for highlights and interactive elements with hex color picker",
@@ -156,11 +196,6 @@
           "location": "Audio Manager upload"
         },
         {
-          "name": "Presence Customization",
-          "description": "Customize Discord presence display and settings",
-          "location": "Presence Customization section"
-        },
-        {
           "name": "General Profile Settings",
           "description": "General customization options for overall profile appearance, such as location and profile effects.",
           "location": "General Customization section"
@@ -191,21 +226,174 @@
           "location": "Time Customization section"
         },
         {
-          "name": "Other Customization",
-          "description": "Additional customization options and effects, such as views, feedback, comments, and more.",
+          "name": "Volume Control",
+          "description": "Toggle the volume control on your profile.",
           "location": "Other Customization section"
         },
         {
-          "name": "Enter Screen",
-          "description": "You need to set an enter text if you have an audio on your profile, you can also force enable the enter screen.",
-          "location": "Customize page"
+          "name": "Profile Feedback (Likes/Dislikes)",
+          "description": "Toggle the profile feedback (likes/dislikes) on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Profile Views",
+          "description": "Toggle the profile views on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Parallax Effect",
+          "description": "Toggle the parallax effect on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Parallax Effect Settings",
+          "description": "Customize the parallax effect settings like intensity and inverted on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Title Animation",	
+          "description": "Toggle the title animation on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Profile Comments",
+          "description": "Toggle the profile comments on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Profile Comments Privacy",
+          "description": "Toggle the profile comments privacy on your profile.",
+          "location": "Other Customization section"
+        },
+        {
+          "name": "Force Enter Screen",
+          "description": "Force enable the enter screen on your profile.",
+          "location": "Other Customization section"
         }
       ],
       "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "youtube", "presence", "aboutme", "custom-emojis", "time", "join-date", "time-customization", "enter-text", "enter-screen"]
     },
+    "layout": {
+      "title": "Layout",
+      "category": "Customization",
+      "url": "/dashboard/layout",
+      "description": "Choose and customize different layout themes for your profile",
+      "features": [
+        {
+          "name": "Theme Selection",
+          "description": "Choose between Default, Modern, Simplistic, and Portfolio theme layouts",
+          "location": "Theme Selection section"
+        },
+        {
+          "name": "Default Theme Settings",
+          "description": "Customize your profile layout. Default theme has these extra features: Banner Uploads & Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
+          "location": "Default Theme Settings"
+        },
+        {
+          "name": "Default Theme Social Cards",
+          "description": "Here you can add/remove/edit your social cards and add up to 1 social cards",
+          "location": "Default Theme Settings"
+        },
+        {
+          "name": "Modern Theme Social Cards",
+          "description": "Here you can add/remove/edit your social cards and add up to 4 social cards",
+          "location": "Modern Theme Settings"
+        },
+        {
+          "name": "Modern Theme Settings",
+          "description": "Customize your profile layout. Modern theme has these extra features:  Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
+          "location": "Modern Theme Settings"
+        },
+        {
+          "name": "Simplistic Theme Settings",
+          "description": "Customize your profile layout. Simplistic theme has these extra features: Show your Socials as Buttons like on Linktr.ee",
+          "location": "Simplistic Theme Settings"
+        },
+        {
+          "name": "Portfolio Theme Settings",
+          "description": "Customize your profile layout. Portfolio theme has these extra features: Projects, Skills, About Me, & Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
+          "location": "Portfolio Theme Settings"
+        },
+        {
+          "name": "Portfolio Theme Social Cards",
+          "description": "Here you can add/remove/edit your social cards and add up to 4 social cards",
+          "location": "Portfolio Theme Settings"
+        },
+        {
+          "name": "Portfolio Theme Projects",
+          "description": "Here you can add/remove/edit your projects and add up to 4 projects",
+          "location": "Portfolio Theme Settings"
+        },
+        {
+          "name": "Portfolio Theme Skills",
+          "description": "Here you can add/remove/edit your skills",
+          "location": "Portfolio Theme Settings"
+        },
+        {
+          "name": "Layout Responsiveness",
+          "description": "Ensure optimal display across desktop, tablet, and mobile devices",
+          "location": "All theme settings"
+        },
+        {
+          "name": "Custom Layout Elements",
+          "description": "Add, remove, or rearrange layout elements within your chosen theme",
+          "location": "Theme-specific settings"
+        },
+        {
+          "name": "Social Integration Customization",
+          "description": "Customize your discord card appearance & styling of your social cards.",
+          "location": "Social Integration Customization section"
+        }
+      ],
+      "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements", "discord-presence"]
+    },
+    "decoration": {
+      "title": "Profile Decorations",
+      "category": "Content & Assets",
+      "url": "/dashboard/decoration",
+      "description": "Browse and apply decorative elements to enhance your profile appearance",
+      "features": [
+        {
+          "name": "Decoration Gallery",
+          "description": "Browse available decorative elements and effects",
+          "location": "Decoration Gallery section"
+        },
+        {
+          "name": "Decoration Preview",
+          "description": "Preview decorations before applying them to your profile",
+          "location": "Decoration Card interface"
+        },
+        {
+          "name": "Decoration Categories",
+          "description": "Browse decorations by different categories and themes",
+          "location": "Decoration Gallery filters"
+        },
+        {
+          "name": "Decoration Application",
+          "description": "Apply selected decorations to your profile",
+          "location": "Decoration Actions"
+        },
+        {
+          "name": "Decoration Management",
+          "description": "Manage and remove applied decorations",
+          "location": "Decoration Actions"
+        },
+        {
+          "name": "Pagination Controls",
+          "description": "Navigate through multiple pages of available decorations",
+          "location": "Pagination Controls"
+        },
+        {
+          "name": "Decoration Search",
+          "description": "Search for specific decorations by name or theme",
+          "location": "Decoration Gallery header"
+        }
+      ],
+      "keywords": ["decorations", "gallery", "effects", "themes", "seasonal", "apply", "preview", "categories", "browse"]
+    },
     "premium": {
-      "title": "Premium Features",
-      "category": "Profile & Customization",
+      "title": "Premium",
+      "category": "Customization",
       "url": "/dashboard/premium",
       "description": "Exclusive premium features for enhanced profile customization and functionality",
       "features": [
@@ -287,83 +475,9 @@
       ],
       "keywords": ["premium", "alias", "animations", "cursor", "fonts", "custom", "upload", "typewriter", "metadata", "visibility", "exclusive", "pro"]
     },
-    "layout": {
-      "title": "Layout & Themes",
-      "category": "Profile & Customization",
-      "url": "/dashboard/layout",
-      "description": "Choose and customize different layout themes for your profile",
-      "features": [
-        {
-          "name": "Theme Selection",
-          "description": "Choose between Default, Modern, Simplistic, and Portfolio theme layouts",
-          "location": "Theme Selection section"
-        },
-        {
-          "name": "Default Theme Settings",
-          "description": "Customize your profile layout. Default theme has these extra features: Banner Uploads & Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
-          "location": "Default Theme Settings"
-        },
-        {
-          "name": "Default Theme Social Cards",
-          "description": "Here you can add/remove/edit your social cards and add up to 1 social cards",
-          "location": "Default Theme Settings"
-        },
-        {
-          "name": "Modern Theme Social Cards",
-          "description": "Here you can add/remove/edit your social cards and add up to 4 social cards",
-          "location": "Modern Theme Settings"
-        },
-        {
-          "name": "Modern Theme Settings",
-          "description": "Customize your profile layout. Modern theme has these extra features:  Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
-          "location": "Modern Theme Settings"
-        },
-        {
-          "name": "Simplistic Theme Settings",
-          "description": "Customize your profile layout. Simplistic theme has these extra features: Show your Socials as Buttons like on Linktr.ee",
-          "location": "Simplistic Theme Settings"
-        },
-        {
-          "name": "Portfolio Theme Settings",
-          "description": "Customize your profile layout. Portfolio theme has these extra features: Projects, Skills, About Me, & Social Cards (Brawl Stars, Clash of Clans, Discord Presence/Bot/Server, GitHub, Instagram, Last.fm, Melonly, Minecraft, Roblox, Spotify, Stats.fm, Steam, Telegram, TikTok, Twitch, Twitter, Valorant, Weather & YouTube)",
-          "location": "Portfolio Theme Settings"
-        },
-        {
-          "name": "Portfolio Theme Social Cards",
-          "description": "Here you can add/remove/edit your social cards and add up to 4 social cards",
-          "location": "Portfolio Theme Settings"
-        },
-        {
-          "name": "Portfolio Theme Projects",
-          "description": "Here you can add/remove/edit your projects and add up to 4 projects",
-          "location": "Portfolio Theme Settings"
-        },
-        {
-          "name": "Portfolio Theme Skills",
-          "description": "Here you can add/remove/edit your skills",
-          "location": "Portfolio Theme Settings"
-        },
-        {
-          "name": "Layout Responsiveness",
-          "description": "Ensure optimal display across desktop, tablet, and mobile devices",
-          "location": "All theme settings"
-        },
-        {
-          "name": "Custom Layout Elements",
-          "description": "Add, remove, or rearrange layout elements within your chosen theme",
-          "location": "Theme-specific settings"
-        },
-        {
-          "name": "Social Integration Customization",
-          "description": "Customize your discord card appearance.",
-          "location": "Social Integration Customization section"
-        }
-      ],
-      "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements", "discord-presence"]
-    },
     "badges": {
-      "title": "Badges & Achievements",
-      "category": "Rewards & Socials",
+      "title": "Badges",
+      "category": "Socials",
       "url": "/dashboard/badges",
       "description": "Manage, customize, and display your profile badges and achievements",
       "features": [
@@ -451,8 +565,8 @@
       "keywords": ["badges", "achievements", "custom", "colors", "glow", "borders", "opacity", "monochrome", "display", "management", "customization"]
     },
     "links": {
-      "title": "Social Links & URLs",
-      "category": "Rewards & Socials",
+      "title": "Links",
+      "category": "Socials",
       "url": "/dashboard/links",
       "description": "Add, manage, and customize social media links and custom URLs",
       "features": [
@@ -535,58 +649,53 @@
       "keywords": ["links", "social", "media", "custom", "icons", "colors", "analytics", "platforms", "urls", "reorder", "validation", "crypto"]
     },
     "assets": {
-      "title": "Asset Management",
-      "category": "Content & Assets",
+      "title": "Assets",
+      "category": "Content",
       "url": "/dashboard/assets",
-      "description": "Upload, manage, and organize your profile assets like images and media files",
+      "description": "Upload avatars, backgrounds and other profile assets that are publicly visible to all users. Other users can apply these assets directly or download them.",
       "features": [
         {
-          "name": "Asset Upload System",
-          "description": "Upload various file types including images, videos, and documents",
-          "location": "Asset Upload Modal"
+          "name": "Avatar Upload",
+          "description": "Upload your own avatar images that are publicly visible and usable by all users.",
+          "location": "Avatar Upload section"
         },
         {
-          "name": "File Type Validation",
-          "description": "Automatic validation of file types and sizes based on asset categories",
-          "location": "Asset Upload Modal"
+          "name": "Background Upload",
+          "description": "Upload background images that can be used by other users for their profiles or downloaded.",
+          "location": "Background Upload section"
         },
         {
-          "name": "Asset Preview",
-          "description": "Preview uploaded assets with thumbnail generation",
-          "location": "Asset Card interface"
+          "name": "Public Asset Gallery",
+          "description": "Browse through all uploaded avatars, backgrounds and media – visible and usable by everyone.",
+          "location": "Public Asset Gallery section"
         },
         {
-          "name": "Asset Organization",
-          "description": "Organize assets with tags, categories, and custom naming",
-          "location": "Asset management interface"
+          "name": "Apply Asset",
+          "description": "Select an asset from the gallery and apply it directly to your own profile.",
+          "location": "Asset Detail/Apply-Button"
         },
         {
           "name": "Asset Download",
-          "description": "Download your uploaded assets directly from the dashboard",
-          "location": "Asset Card interface"
+          "description": "Download each public asset as a file.",
+          "location": "Asset Detail/Download-Button"
         },
         {
-          "name": "Asset Deletion",
-          "description": "Safely delete assets with confirmation dialogs",
-          "location": "Delete Confirmation Modal"
+          "name": "Asset Owner Info",
+          "description": "See who uploaded an asset.",
+          "location": "Asset Detail"
         },
         {
-          "name": "Asset Usage Tracking",
-          "description": "Track where and how your assets are being used across your profile",
-          "location": "Asset Card interface"
+          "name": "Asset Preview",
+          "description": "Preview assets before using or downloading them.",
+          "location": "Public Asset Gallery & Asset Detail"
         },
         {
-          "name": "Asset Sharing",
-          "description": "Generate shareable links for your uploaded assets",
-          "location": "Asset Card interface"
-        },
-        {
-          "name": "Bulk Asset Operations",
-          "description": "Select and manage multiple assets simultaneously",
-          "location": "Assets grid interface"
+          "name": "Sorting and Filtering Functions",
+          "description": "Sort and filter assets by type (avatar, background, etc.), popularity or latest.",
+          "location": "Public Asset Gallery"
         }
       ],
-      "keywords": ["assets", "upload", "images", "media", "files", "storage", "preview", "download", "organization", "sharing"]
+      "keywords": ["assets", "upload", "avatar", "background", "images", "media", "files", "storage", "preview", "download", "organization", "sharing", "public", "apply", "use"]
     },
     "templates": {
       "title": "Profile Templates",
@@ -657,53 +766,9 @@
       ],
       "keywords": ["templates", "profiles", "customization", "sharing", "community", "favorites", "public", "private", "preview", "apply"]
     },
-    "decoration": {
-      "title": "Profile Decorations",
-      "category": "Content & Assets",
-      "url": "/dashboard/decoration",
-      "description": "Browse and apply decorative elements to enhance your profile appearance",
-      "features": [
-        {
-          "name": "Decoration Gallery",
-          "description": "Browse available decorative elements and effects",
-          "location": "Decoration Gallery section"
-        },
-        {
-          "name": "Decoration Preview",
-          "description": "Preview decorations before applying them to your profile",
-          "location": "Decoration Card interface"
-        },
-        {
-          "name": "Decoration Categories",
-          "description": "Browse decorations by different categories and themes",
-          "location": "Decoration Gallery filters"
-        },
-        {
-          "name": "Decoration Application",
-          "description": "Apply selected decorations to your profile",
-          "location": "Decoration Actions"
-        },
-        {
-          "name": "Decoration Management",
-          "description": "Manage and remove applied decorations",
-          "location": "Decoration Actions"
-        },
-        {
-          "name": "Pagination Controls",
-          "description": "Navigate through multiple pages of available decorations",
-          "location": "Pagination Controls"
-        },
-        {
-          "name": "Decoration Search",
-          "description": "Search for specific decorations by name or theme",
-          "location": "Decoration Gallery header"
-        }
-      ],
-      "keywords": ["decorations", "gallery", "effects", "themes", "seasonal", "apply", "preview", "categories", "browse"]
-    },
     "apply": {
-      "title": "Applications System",
-      "category": "Applications & Business",
+      "title": "Apply",
+      "category": "Applications",
       "url": "/dashboard/apply",
       "description": "Apply for special roles, positions, services, and affiliate codes through the admin-reviewed application system",
       "features": [
@@ -771,8 +836,8 @@
       "keywords": ["applications", "apply", "forms", "status", "tracking", "submissions", "requirements", "deadlines", "notes", "history", "affiliate", "admin-review"]
     },
     "affiliate": {
-      "title": "Affiliate Program",
-      "category": "Applications & Business",
+      "title": "Affiliate",
+      "category": "Applications",
       "url": "/dashboard/affiliate",
       "description": "Manage your affiliate program, referrals, and view all earned rewards. Affiliate codes are only available through admin approval via application system.",
       "features": [
@@ -814,11 +879,6 @@
         {
           "name": "Comprehensive Rewards History",
           "description": "View complete history of all rewards, bonuses, and earnings from all sources",
-          "location": "Rewards Section"
-        },
-        {
-          "name": "Payout Management",
-          "description": "Manage payout methods and withdrawal requests for all accumulated rewards",
           "location": "Rewards Section"
         },
         {
@@ -967,7 +1027,7 @@
       "keywords": ["imagehost-gallery", "imagehost-files", "imagehost-view", "imagehost-delete"]
     },
     "settings": {
-      "title": "Account Settings",
+      "title": "Settings",
       "category": "Account",
       "url": "/dashboard/settings",
       "description": "Manage your account settings, security, and personal information",
@@ -993,28 +1053,18 @@
           "location": "Email Settings section"
         },
         {
-          "name": "Email Verification",
-          "description": "Verify your email address for security purposes",
-          "location": "Email Settings section"
-        },
-        {
           "name": "Discord Integration",
           "description": "Connect or disconnect your Discord account for profile features",
           "location": "Discord Connection section"
         },
         {
-          "name": "Discord Status Sync",
-          "description": "Sync your Discord status and presence with your profile",
+          "name": "Discord Role Sync",
+          "description": "Sync your discord roles with your profile",
           "location": "Discord Connection section"
         },
         {
           "name": "Password Management",
           "description": "Change your account password with security validation",
-          "location": "Password Settings section"
-        },
-        {
-          "name": "Password Requirements",
-          "description": "Enforce strong password requirements and validation",
           "location": "Password Settings section"
         },
         {
@@ -1046,24 +1096,28 @@
           "name": "Session Termination",
           "description": "Terminate individual sessions or all sessions remotely",
           "location": "Session Manager section"
-        },
-        {
-          "name": "Login History",
-          "description": "View complete login history with timestamps and locations",
-          "location": "Session Manager section"
-        },
-        {
-          "name": "Security Notifications",
-          "description": "Configure security-related email notifications",
-          "location": "Email Settings section"
-        },
-        {
-          "name": "Privacy Settings",
-          "description": "Control privacy settings and data sharing preferences",
-          "location": "Various settings sections"
         }
       ],
       "keywords": ["settings", "account", "security", "password", "email", "discord", "2fa", "sessions", "privacy", "username", "verification"]
+    },
+    "billing": {
+      "title": "Billing",
+      "category": "Account",
+      "url": "/dashboard/billing",
+      "description": "See your recent invoices and manage your billing information",
+      "features": [
+        {
+          "name": "Recent Invoices",
+          "description": "See your recent invoices and their status",
+          "location": "Recent Invoices section"
+        },
+        {
+          "name": "Invoice Details",
+          "description": "See the details of an invoice",
+          "location": "Invoice Details section"
+        }
+      ],
+      "keywords": ["billing", "invoices", "payments", "methods", "settings"]
     }
   },
   "comparison": {
@@ -1152,19 +1206,18 @@
         "response_time": "Usually within 24 hours"
       },
       "docs": {
-      "link": "https://help.haunt.gg",
-      "faq": "https://help.haunt.gg/overview/faq",
-      "changelog": "https://help.haunt.gg/overview/changelog",
-      "products": "https://help.haunt.gg/overview/products"
+        "link": "https://help.haunt.gg",
+        "faq": "https://help.haunt.gg/overview/faq",
+        "changelog": "https://help.haunt.gg/overview/changelog",
+        "products": "https://help.haunt.gg/overview/products"
+      }
     },
     "additional_information": {
-      "1-letter-usernames": "1 letter usernames can be bought on our discord server for 50€",
-      "2-letter-usernames": "2 letter username are included with verified or premium"
+      "1-letter-usernames": "1 letter usernames can be bought on our discord server for 10€"
     },
     "ai_guidance": {
       "unanswerable": "If the AI can't answer a question, please check our documentation at https://help.haunt.gg or join our Discord server at discord.gg/hauntbio for assistance.",
       "missing_information": "If something is missing from the AI knowledge, please report it in our Discord so the team can update the knowledge base."
-    }
     },
     "payments": {
       "methods": {
@@ -1198,7 +1251,7 @@
         "email": "1-2 business days"
       },
       "common_issues": {
-        "account_recovery": "Contact via Discord with your UID",
+        "account_recovery": "Contact via Discord with your email",
         "payment_issues": "Include transaction ID in support ticket",
         "technical_problems": "Check Discord announcements first"
       }
