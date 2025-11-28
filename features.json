@@ -66,6 +66,11 @@
           "location": "General Customization section"
         },
         {
+          "name": "Avatar Radius",
+          "description": "Customize your profile avatar radius with a slider.",
+          "location": "General Customization section"
+        },
+        {
           "name": "Profile Opacity",
           "description": "Customize your profile opacity with a slider.",
           "location": "General Customization section"
@@ -86,13 +91,23 @@
           "location": "General Customization section"
         },
         {
-          "name": "Username Effect",
-          "description": "Customize your profile username effect with a selection of effects.",
+          "name": "Background Effect Animations",
+          "description": "You can choose between Blurred Background, Night Time, Old TV, Snow, Floating Particles, Falling Leaves, Shooting Stars, Rain & VHS Backroom Bodycam.",
           "location": "General Customization section"
         },
         {
-          "name": "Username Effect Settings",
-          "description": "Customize your profile username effect settings with a selection of settings.",
+          "name": "Username/Display Name Effect",
+          "description": "Customize your profile username/display name effect with a selection of effects.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Username/Display Name Effect Settings",
+          "description": "Customize your profile username/display name effect settings with a selection of settings.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Username/Display Name Effect Animations",
+          "description": "You can choose between Rainbow, Glow, Typewriter & Particles.",
           "location": "General Customization section"
         },
         {
@@ -560,6 +575,118 @@
           "name": "Badge Organization",
           "description": "Arrange and organize badges in your preferred order",
           "location": "Badge management interface"
+        }
+      ],
+      "guides": [
+        {
+          "badge": "Owner",
+          "description": "Be a owner of haunt.gg.",
+          "obtainable": false
+        },
+        {
+          "badge": "Manager",
+          "description": "Be a manager of haunt.gg.",
+          "obtainable": false
+        },
+        {
+          "badge": "Staff",
+          "description": "Be a part of the haunt.gg staff team.",
+          "obtainable": false
+        },
+        {
+          "badge": "Helper",
+          "description": "Be a part of the haunt.gg helper team.",
+          "obtainable": false
+        },
+        {
+          "badge": "OG",
+          "description": "Be an early supporter of haunt.gg.",
+          "obtainable": false
+        },
+        {
+          "badge": "Verified",
+          "description": "Purchase or be a known content creator.",
+          "obtainable": true
+        },
+        {
+          "badge": "Bug Hunter",
+          "description": "Report a bug to the haunt.gg team.",
+          "obtainable": true
+        },
+        {
+          "badge": "Donator",
+          "description": "Donate at least 10€ to haunt.gg.",
+          "obtainable": true
+        },
+        {
+          "badge": "Premium",
+          "description": "Purchase the premium package.",
+          "obtainable": true
+        },
+        {
+          "badge": "Champion",
+          "description": "Take place in the top 10 of the leaderboard.",
+          "obtainable": true
+        },
+        {
+          "badge": "Booster",
+          "description": "Boost the haunt.gg discord server.",
+          "obtainable": true
+        },
+        {
+          "badge": "Beta",
+          "description": "Be a part of haunt.gg beta team.",
+          "obtainable": false
+        },
+        {
+          "badge": "Innovator",
+          "description": "Suggest an innovative feature that improves our platform.",
+          "obtainable": true
+        },
+        {
+          "badge": "Contributor",
+          "description": "Contribute to the official haunt.gg documentation.",
+          "obtainable": true
+        },
+        {
+          "badge": "Winner",
+          "description": "Win a haunt.gg event",
+          "obtainable": true
+        },
+        {
+          "badge": "Second Place",
+          "description": "Get second place in a haunt.gg event.",
+          "obtainable": true
+        },
+        {
+          "badge": "Third Place",
+          "description": "Get third place in a haunt.gg event.",
+          "obtainable": true
+        },
+        {
+          "badge": "Inviter",
+          "description": "Refer 5 users to unlock this exclusive badge.",
+          "obtainable": true
+        },
+        {
+          "badge": "Gifter",
+          "description": "Gift a haunt.gg product to another user.",
+          "obtainable": true
+        },
+        {
+          "badge": "Image Host",
+          "description": "Purchase the Image Host storage extension.",
+          "obtainable": true
+        },
+        {
+          "badge": "Guild Tag",
+          "description": "Obtain our guild tag on the haunt.gg discord server.",
+          "obtainable": true
+        },
+        {
+          "badge": "Halloween",
+          "description": "Exclusive badge from the halloween sale.",
+          "obtainable": false
         }
       ],
       "keywords": ["badges", "achievements", "custom", "colors", "glow", "borders", "opacity", "monochrome", "display", "management", "customization"]
