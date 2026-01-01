@@ -284,6 +284,31 @@
           "name": "Force Enter Screen",
           "description": "Force enable the enter screen on your profile.",
           "location": "Other Customization section"
+        },
+        {
+          "name": "Cursor Manager",
+          "description": "The cursor manager allows you to set a Regular Cursor and Pointer Cursor",
+          "location": "Customization page"
+        },
+        {
+          "name": "Audio Manager Download Option",
+          "description": "Downlaod uploaded songs from the audio manager.",
+          "location": "Audio Manager"
+        },
+        {
+          "name": "Reset Buttons for Inputs",
+          "description": "All buttons and imputs have a reset button.",
+          "location": "Color Customization section"
+        },
+        {
+          "name": "Background Manager",
+          "description": "The background manager allows you to set a background and if you have premium, you can set 3 backgrounds.",
+          "location": "Background Customization section"
+        },
+        {
+          "name": "Discord Avatar Sync",
+          "description": "Sync your avatar with your Discord avatar.",
+          "location": "Avatar Manager"
         }
       ],
       "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "youtube", "presence", "aboutme", "custom-emojis", "time", "join-date", "time-customization", "enter-text", "enter-screen"]
@@ -358,6 +383,26 @@
           "name": "Social Integration Customization",
           "description": "Customize your discord card appearance & styling of your social cards.",
           "location": "Social Integration Customization section"
+        },
+        {
+          "name": "Button Count per Row Setting",
+          "description": "Button Count per Row setting.",
+          "location": "Simplistic Theme Settings"
+        },
+        {
+          "name": "Animation Customization for Portfolio Theme",
+          "description": "Customize animations for the Portfolio Theme.",
+          "location": "Portfolio Theme Settings"
+        },
+        {
+          "name": "Project Scroll Text Change",
+          "description": "Option to change Project Scroll Text (Portfolio Theme)",
+          "location": "Portfolio Theme Settings"
+        },
+        {
+          "name": "Project Limit",
+          "description": "Project Limit for portfolio theme is 10.",
+          "location": "Portfolio Theme Settings"
         }
       ],
       "keywords": ["layout", "themes", "modern", "default", "simplistic", "design", "responsive", "preview", "arrangement", "elements", "discord-presence"]
@@ -575,6 +620,11 @@
           "name": "Badge Organization",
           "description": "Arrange and organize badges in your preferred order",
           "location": "Badge management interface"
+        },
+        {
+          "name": "Custom Badges Preview",
+          "description": "You can preview custom badges before adding them to your profile.",
+          "location": "Custom Badges section"
         }
       ],
       "guides": [
@@ -1060,7 +1110,7 @@
         {
           "name": "Image Host Domain",
           "description": "Choose from multiple available domains for hosting your images.",
-          "location": "General Customization section"
+          "location": "General Customization section/Domain Manager"
         },
         {
           "name": "Image Host Auto Deletion",
@@ -1111,6 +1161,16 @@
           "name": "Image Host Embed Variables",
           "description": "Use dynamic variables in your Discord embed to display information automatically.",
           "location": "Embed Customization section"
+        },
+        {
+          "name": "Supported services",
+          "description": "ShareX, iShare, iOS Shortcut, Flameshot, xShare",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Custom Domain Management",
+          "description": "Add your custom domain to imagehost.",
+          "location": "Domain settings section"
         }
       ],
       "keywords": ["imagehost", "ShareX", "Shortcuts", "iShare", "Flameshot", "imagehost-embed", "imagehost-upload-client", "imagehost-analytics"]
@@ -1238,6 +1298,11 @@
           "name": "Session Termination",
           "description": "Terminate individual sessions or all sessions remotely",
           "location": "Session Manager section"
+        },
+        {
+          "name": "Alias Settings",
+          "description": "Manage your aliases",
+          "location": "Alias settings section"
         }
       ],
       "keywords": ["settings", "account", "security", "password", "email", "discord", "2fa", "sessions", "privacy", "username", "verification"]
