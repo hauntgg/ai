@@ -699,6 +699,11 @@
           "obtainable": true
         },
         {
+          "badge": "Domain",
+          "description": "Add a custom domain to Image Host.",
+          "obtainable": true
+        },
+        {
           "badge": "Winner",
           "description": "Win a haunt.gg event",
           "obtainable": true
@@ -737,7 +742,13 @@
           "badge": "Halloween",
           "description": "Exclusive badge from the halloween sale.",
           "obtainable": false
+        },
+        {
+          "badge": "Christmas",
+          "description": "Exclusive badge from the christmas sale.",
+          "obtainable": false
         }
+
       ],
       "keywords": ["badges", "achievements", "custom", "colors", "glow", "borders", "opacity", "monochrome", "display", "management", "customization"]
     },
