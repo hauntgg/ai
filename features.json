@@ -531,6 +531,11 @@
           "name": "Premium Theme Access",
           "description": "Access to exclusive premium themes and layouts",
           "location": "Premium themes throughout dashboard"
+        },
+        {
+          "name": "Domain Manager",
+          "description": "Add your own domain to show your haunt.gg page on your custom domain.",
+          "location": "Domain Settings section"
         }
       ],
       "keywords": ["premium", "alias", "animations", "cursor", "fonts", "custom", "upload", "typewriter", "metadata", "visibility", "exclusive", "pro"]
@@ -747,6 +752,11 @@
           "badge": "Christmas",
           "description": "Exclusive badge from the christmas sale.",
           "obtainable": false
+        },
+        {
+          "badge": "Voter",
+          "description": "Participate in an event voting process to draw a winner. (haunt.gg/vote)",
+          "obtainable": true
         }
 
       ],
@@ -1405,6 +1415,11 @@
       },
       {
         "name": "fr",
+        "description": "Staff at Haunt",
+        "location": "Team Page"
+      },
+      {
+        "name": "sharkzy",
         "description": "Staff at Haunt",
         "location": "Team Page"
       }
