@@ -1463,8 +1463,9 @@
           "processing_time": "Instant"
         },
         "cryptomus": {
-          "supported_coins": ["Bitcoin", "Ethereum", "Litecoin", "USDT"],
-          "processing_time": "Varies by network confirmation"
+          "supported_coins": ["Bitcoin", "Ethereum", "Litecoin", "USDT", "XMR", "POL", "BNB", "USDC", "SOL"],
+          "processing_time": "Varies by network confirmation",
+          "availability": "Only available via ticket in our Discord server"
         },
         "paddle": {
           "supported_types": ["PayPal"],
