@@ -666,6 +666,7 @@
         {
           "badge": "Bug Hunter",
           "description": "Report a bug to the haunt.gg team.",
+          "important": "The badge is not given for every bug report.",
           "obtainable": true
         },
         {
@@ -1306,6 +1307,11 @@
           "location": "Two-Factor Authentication section"
         },
         {
+          "name": "API Keys",
+          "description": "Generate and manage API keys for external integrations.",
+          "location": "API Keys section"
+        },
+        {
           "name": "Session Management",
           "description": "View and manage all active sessions and login locations",
           "location": "Session Manager section"
@@ -1363,9 +1369,14 @@
         "name": "Uniqueness Focus",
         "description": "Our goal is to make haunt.gg unique rather than compete directly with others.",
         "location": "General"
+      },
+      {
+        "name": "No Import",
+        "description": "We do not offer an import feature from other biolink services.",
+        "location": "General"
       }
     ],
-    "keywords": ["comparison", "other-biolinks", "unique", "individuality"]
+    "keywords": ["comparison", "other-biolinks", "unique", "individuality", "import"]
   },
   "team": {
     "title": "Staff Team",
@@ -1447,6 +1458,22 @@
         "faq": "https://help.haunt.gg/overview/faq",
         "changelog": "https://help.haunt.gg/overview/changelog",
         "products": "https://help.haunt.gg/overview/products"
+      },
+      "pages": {
+        "leaderboard": "https://haunt.gg/leaderboard",
+        "pricing": "https://haunt.gg/pricing",
+        "team": "https://haunt.gg/team",
+        "vote": "https://haunt.gg/vote"
+      },
+      "products": {
+        "overview": "https://haunt.gg/pricing",
+        "premium": "https://haunt.gg/pricing#premium",
+        "verified": "https://haunt.gg/pricing#verified",
+        "custom_badge": "https://haunt.gg/pricing#custom_badge",
+        "alias_token": "https://haunt.gg/pricing#alias_token",
+        "donator": "https://haunt.gg/pricing#donator",
+        "imagehost_extension": "https://haunt.gg/pricing#imagehost",
+        "1letter_usernames_and_uids_stock": "https://haunt.gg/oguser"
       }
     },
     "additional_information": {
