@@ -61,8 +61,23 @@
       "description": "Comprehensive profile customization with colors, audio, backgrounds, and visual effects",
       "features": [
         {
+          "name": "General Profile Settings",
+          "description": "General customization options for overall profile appearance, such as location and profile effects.",
+          "location": "General Customization section"
+        },
+        {
           "name": "Description",
           "description": "Customize your profile description with a custom description.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Location",
+          "description": "Customize your profile location with a country flag or country name.",
+          "location": "General Customization section"
+        },
+        {
+          "name": "Enter Text",
+          "description": "Customize your profile enter text with a custom text.",
           "location": "General Customization section"
         },
         {
@@ -80,6 +95,32 @@
           "description": "Customize your profile blur with a slider.",
           "location": "General Customization section"
         },
+        {
+          "name": "About Me",
+          "description": "Create an About Me section on your profile with supported Markdown formatting.",
+          "location": "About Me section"
+        },
+        {
+          "name": "About Me Custom Emojis",
+          "description": "You can use custom emojis in your About Me section with supported markdown. You can also join our [Discord server](https://discord.gg/hauntbio) and run the `/emoji` command to get the markdown code for the custom emoji you want to use.",
+          "location": "About Me section"
+        },
+        {
+          "name": "Time Customization",
+          "description": "Display join date and customize the time format used on your profile.",
+          "location": "Time Customization section"
+        },
+        {
+          "name": "Border Customization",
+          "description": "Customize profile card borders with colors and styles",
+          "location": "Border Customization section"
+        },
+        {
+          "name": "YouTube URL Integration",
+          "description": "Integrate YouTube videos or playlists into your profile",
+          "location": "YouTube URL Input section"
+        },
+
         {
           "name": "Background Effect",
           "description": "Customize your profile background effect with a selection of effects.",
@@ -110,16 +151,7 @@
           "description": "You can choose between Rainbow, Glow, Typewriter & Particles.",
           "location": "General Customization section"
         },
-        {
-          "name": "Location",
-          "description": "Customize your profile location with a country flag or country name.",
-          "location": "General Customization section"
-        },
-        {
-          "name": "Enter Text",
-          "description": "Customize your profile enter text with a custom text.",
-          "location": "General Customization section"
-        },
+
         {
           "name": "Accent Color Picker",
           "description": "Choose custom accent color for highlights and interactive elements with hex color picker",
@@ -151,95 +183,175 @@
           "location": "Color Customization section"
         },
         {
+          "name": "Reset Buttons for Inputs",
+          "description": "All buttons and imputs have a reset button.",
+          "location": "Color Customization section"
+        },
+
+        {
+          "name": "Avatar Manager",
+          "description": "The avatar manager allows you to upload a custom avatar or sync your avatar with Discord.",
+          "location": "Avatar Manager section"
+        },
+        {
+          "name": "Avatar Upload",
+          "description": "Upload a custom avatar image for your profile.",
+          "location": "Avatar Manager section"
+        },
+        {
+          "name": "Discord Avatar Sync",
+          "description": "Sync your avatar with your Discord avatar automatically.",
+          "location": "Avatar Manager section"
+        },
+        {
+          "name": "Avatar Preview",
+          "description": "Preview your avatar before applying it to your profile.",
+          "location": "Avatar Manager section"
+        },
+        {
+          "name": "Avatar Deletion",
+          "description": "Remove your custom avatar and revert to the default.",
+          "location": "Avatar Manager section"
+        },
+
+        {
+          "name": "Background Manager",
+          "description": "The background manager allows you to upload, manage, and customize profile backgrounds. Supports image and video backgrounds. Premium users can set up to 3 backgrounds.",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Image Background Upload",
+          "description": "Upload custom background images for your profile (supports common image formats like PNG, JPG, GIF, WebP).",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Video Background Upload",
+          "description": "Upload custom background videos for your profile (supports common video formats like MP4, WebM).",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Background Preview",
+          "description": "Preview uploaded backgrounds before applying them to your profile.",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Multiple Backgrounds (Premium)",
+          "description": "Premium users can upload and manage up to 3 backgrounds that rotate on their profile.",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Background Reordering",
+          "description": "Drag and drop to reorder your backgrounds.",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Background Deletion",
+          "description": "Delete backgrounds and their associated files.",
+          "location": "Background Manager section"
+        },
+        {
+          "name": "Background Activation",
+          "description": "Activate or deactivate individual backgrounds.",
+          "location": "Background Manager section"
+        },
+
+        {
+          "name": "Audio Manager",
+          "description": "The audio manager allows you to upload, manage, and customize background music for your profile.",
+          "location": "Audio Manager section"
+        },
+        {
           "name": "Audio File Upload",
           "description": "Upload custom audio files (MP3, WAV, OGG) for background music",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Cover Upload",
           "description": "Upload custom cover images for your audio tracks",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Title Editing",
           "description": "Set custom titles for your uploaded audio tracks",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio External URLs",
           "description": "Add external URLs to your audio tracks for additional information",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Shuffle Control",
           "description": "Enable or disable shuffle mode for multiple audio tracks",
-          "location": "Audio Manager settings"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Player Visibility",
           "description": "Control whether the audio player is visible to visitors",
-          "location": "Audio Manager settings"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Volume Control",
           "description": "Enable or disable volume controls for visitors",
-          "location": "Audio Manager settings"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Track Activation",
           "description": "Activate or deactivate individual audio tracks",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Track Reordering",
           "description": "Drag and drop to reorder your audio tracks",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Track Deletion",
           "description": "Delete audio tracks and their associated files",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio Track Editing",
           "description": "Edit existing audio track titles, covers, and external URLs",
-          "location": "Audio Manager"
+          "location": "Audio Manager section"
         },
         {
           "name": "Audio File Validation",
           "description": "Automatic validation of audio file types and sizes",
-          "location": "Audio Manager upload"
+          "location": "Audio Manager section"
         },
         {
-          "name": "General Profile Settings",
-          "description": "General customization options for overall profile appearance, such as location and profile effects.",
-          "location": "General Customization section"
+          "name": "Audio Manager Download Option",
+          "description": "Download uploaded songs from the audio manager.",
+          "location": "Audio Manager section"
+        },
+
+        {
+          "name": "Cursor Manager",
+          "description": "The cursor manager allows you to upload and set custom cursors for your profile.",
+          "location": "Cursor Manager section"
         },
         {
-          "name": "Border Customization",
-          "description": "Customize profile card borders with colors and styles",
-          "location": "Border Customization section"
+          "name": "Regular Cursor Upload",
+          "description": "Upload a custom image for the regular (default) cursor on your profile.",
+          "location": "Cursor Manager section"
         },
         {
-          "name": "YouTube URL Integration",
-          "description": "Integrate YouTube videos or playlists into your profile",
-          "location": "YouTube URL Input section"
+          "name": "Pointer Cursor Upload",
+          "description": "Upload a custom image for the pointer (hover) cursor on your profile.",
+          "location": "Cursor Manager section"
         },
         {
-          "name": "About Me",
-          "description": "Create an About Me section on your profile with supported Markdown formatting.",
-          "location": "About Me section"
+          "name": "Cursor Preview",
+          "description": "Preview your custom cursors before applying them to your profile.",
+          "location": "Cursor Manager section"
         },
         {
-          "name": "About Me Custom Emojis",
-          "description": "You can use custom emojis in your About Me section with supported markdown. You can also join our [Discord server](https://discord.gg/hauntbio) and run the `/emoji` command to get the markdown code for the custom emoji you want to use.",
-          "location": "About Me section"
+          "name": "Cursor Deletion",
+          "description": "Remove custom cursors and revert to the default cursor.",
+          "location": "Cursor Manager section"
         },
-        {
-          "name": "Time Customization",
-          "description": "Display join date and customize the time format used on your profile.",
-          "location": "Time Customization section"
-        },
+
         {
           "name": "Volume Control",
           "description": "Toggle the volume control on your profile.",
@@ -266,7 +378,7 @@
           "location": "Other Customization section"
         },
         {
-          "name": "Title Animation",	
+          "name": "Title Animation",
           "description": "Toggle the title animation on your profile.",
           "location": "Other Customization section"
         },
@@ -284,34 +396,9 @@
           "name": "Force Enter Screen",
           "description": "Force enable the enter screen on your profile.",
           "location": "Other Customization section"
-        },
-        {
-          "name": "Cursor Manager",
-          "description": "The cursor manager allows you to set a Regular Cursor and Pointer Cursor",
-          "location": "Customization page"
-        },
-        {
-          "name": "Audio Manager Download Option",
-          "description": "Downlaod uploaded songs from the audio manager.",
-          "location": "Audio Manager"
-        },
-        {
-          "name": "Reset Buttons for Inputs",
-          "description": "All buttons and imputs have a reset button.",
-          "location": "Color Customization section"
-        },
-        {
-          "name": "Background Manager",
-          "description": "The background manager allows you to set a background and if you have premium, you can set 3 backgrounds.",
-          "location": "Background Customization section"
-        },
-        {
-          "name": "Discord Avatar Sync",
-          "description": "Sync your avatar with your Discord avatar.",
-          "location": "Avatar Manager"
         }
       ],
-      "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "youtube", "presence", "aboutme", "custom-emojis", "time", "join-date", "time-customization", "enter-text", "enter-screen"]
+      "keywords": ["customize", "colors", "audio", "music", "background", "gradient", "upload", "visual", "effects", "borders", "youtube", "presence", "aboutme", "custom-emojis", "time", "join-date", "time-customization", "enter-text", "enter-screen", "avatar", "cursor", "background-manager", "avatar-manager", "cursor-manager", "video-background", "image-background"]
     },
     "layout": {
       "title": "Layout",
@@ -509,7 +596,7 @@
         },
         {
           "name": "Profile Metadata Settings",
-          "description": "Advanced metadata and SEO settings for your profile",
+          "description": "Customize the metadata image (link embed picture) that appears when your profile link is shared on Discord, Twitter, or other platforms. Also includes SEO settings for your profile.",
           "location": "Profile Metadata section"
         },
         {
@@ -524,7 +611,7 @@
         },
         {
           "name": "Profile Visibility Settings",
-          "description": "Advanced visibility controls for your metadata image",
+          "description": "Advanced visibility controls for your metadata image (link embed picture).",
           "location": "Profile Visibility Settings section"
         },
         {
@@ -536,9 +623,39 @@
           "name": "Domain Manager",
           "description": "Add your own domain to show your haunt.gg page on your custom domain.",
           "location": "Domain Settings section"
+        },
+        {
+          "name": "Enter Screen Customization",
+          "description": "Customize the enter screen appearance with text color, accent color, opacity, blur, and line dividers.",
+          "location": "Enter Screen section"
+        },
+        {
+          "name": "Enter Text Color",
+          "description": "Change the text color of the enter screen with a color picker.",
+          "location": "Enter Screen section"
+        },
+        {
+          "name": "Enter Accent Color",
+          "description": "Customize the accent color of the enter screen background.",
+          "location": "Enter Screen section"
+        },
+        {
+          "name": "Enter Accent Opacity",
+          "description": "Adjust the enter screen accent opacity from 0% to 100% with a slider.",
+          "location": "Enter Screen section"
+        },
+        {
+          "name": "Enter Accent Blur",
+          "description": "Adjust the enter screen accent blur from 0px to 100px with a slider.",
+          "location": "Enter Screen section"
+        },
+        {
+          "name": "Enter Screen Line Divider",
+          "description": "Add a line divider to the enter screen. Options: None, Top, Bottom, or Top + Bottom.",
+          "location": "Enter Screen section"
         }
       ],
-      "keywords": ["premium", "alias", "animations", "cursor", "fonts", "custom", "upload", "typewriter", "metadata", "visibility", "exclusive", "pro"]
+      "keywords": ["premium", "alias", "animations", "cursor", "fonts", "custom", "upload", "typewriter", "metadata", "visibility", "exclusive", "pro", "enter-screen", "enter-text", "line-divider", "embed", "link-embed", "embed-picture", "metadata-image"]
     },
     "badges": {
       "title": "Badges",
