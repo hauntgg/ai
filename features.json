@@ -872,6 +872,11 @@
           "obtainable": false
         },
         {
+          "badge": "Easter",
+          "description": "Exclusive badge from the easter event.",
+          "obtainable": true
+        },
+        {
           "badge": "Voter",
           "description": "Participate in an event voting process to draw a winner. (haunt.gg/vote)",
           "obtainable": true
