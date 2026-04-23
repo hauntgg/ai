@@ -213,7 +213,6 @@
           "description": "Remove your custom avatar and revert to the default.",
           "location": "Avatar Manager section"
         },
-
         {
           "name": "Background Manager",
           "description": "The background manager allows you to upload, manage, and customize profile backgrounds. Supports image and video backgrounds. Premium users can set up to 3 backgrounds.",
@@ -1564,7 +1563,7 @@
       "uid": {
         "description": "A UID (Unique Identifier) is a unique numerical code assigned to each user profile",
         "format": "Incrementing number starting from 0",
-        "example": "12345678",
+        "example": "353",
         "usage": "Used for quick profile access via haunt.gg/uid/[number]"
       },
       "newsletter": {
@@ -1593,6 +1592,7 @@
         "verified": "https://haunt.gg/pricing#verified",
         "custom_badge": "https://haunt.gg/pricing#custom_badge",
         "alias_token": "https://haunt.gg/pricing#alias_token",
+        "profile_token": "https://haunt.gg/pricing#profile_token",
         "donator": "https://haunt.gg/pricing#donator",
         "imagehost_extension": "https://haunt.gg/pricing#imagehost",
         "1letter_usernames_and_uids_stock": "https://haunt.gg/oguser"
@@ -1649,8 +1649,8 @@
     },
     "legal": {
       "age_requirement": "13+ years",
-      "terms_url": "haunt.gg/terms",
-      "privacy_url": "haunt.gg/privacy",
+      "terms_url": "https://haunt.gg/terms",
+      "privacy_url": "https://haunt.gg/privacy",
       "account_deletion": "Account deletion can be rquested via email. No other platforms than email allowed.",
       "data_handling": {
         "storage_location": "US servers",
@@ -1659,7 +1659,7 @@
       }
     },
     "rules": {
-      "account-limit": "Free Users: 3 accounts, Premium Users: 5 accounts",
+      "account-limit": "We dont have a account limit.",
       "custom-badges": "Imperonations, NSFW or Official Badges are not allowed"
     }
   }
